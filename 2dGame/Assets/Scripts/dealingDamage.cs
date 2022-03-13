@@ -9,8 +9,6 @@ public class dealingDamage : MonoBehaviour
     public GameObject prefab;
 
     Transform target;
-
-
     Healthbar hp;
 
 
@@ -30,7 +28,8 @@ public class dealingDamage : MonoBehaviour
         {
                 hp.hp--;
             Instantiate(prefab, transform.position, Quaternion.identity);
-            Destroy(gameObject);    
+            Destroy(gameObject);
+            Score.enemyCount--;
         }
 
         

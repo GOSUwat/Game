@@ -14,41 +14,45 @@ public class movement : MonoBehaviour
     
     Vector2 mvmnt;
     public float animspeed;
-    public bool facingRight = false;
+    public bool facingRight = true;
+    private SpriteRenderer sprite;
 
-
+    private void Start()
+    {
+        sprite = gameObject.GetComponent<SpriteRenderer>();
+    }
     void Update()
     {
         mvmnt.x = Input.GetAxisRaw("Horizontal");
         mvmnt.y = Input.GetAxisRaw("Vertical");
         animspeed = Mathf.Abs(mvmnt.x) + Mathf.Abs(mvmnt.y);
         animator.SetFloat("speed", Mathf.Abs(animspeed*movementSpeed));
-        
-    }
 
+        if (mvmnt.x > 0)
+        {
+            sprite.flipX = false;
+        }
+        else if (mvmnt.x < 0 )
+        {
+            sprite.flipX = true;
+        }
+    }
 
     private void FixedUpdate()
     {
-        if (mvmnt.x > 0 && facingRight)
-        {
-            Flip();
-        }
-        else if(mvmnt.x < 0 && !facingRight)
-        {
-            Flip();
-        }
+        
         rb.MovePosition(rb.position + mvmnt * movementSpeed * Time.fixedDeltaTime);
 
     }
 
 
-    void Flip()
+    /*void Flip()
     {
         facingRight = !facingRight;
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-    }
+    }*/
     
     
     

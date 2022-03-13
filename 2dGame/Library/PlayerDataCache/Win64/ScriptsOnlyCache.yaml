@@ -4,10 +4,15 @@ ScriptsOnlyBuild:
     - BuffSpawn
     - Buffs
     - CameraFollow
+    - Death
     - Healthbar
+    - Link
     - MainMenu
+    - MaxEnemies
     - Score
     - ScoreGameOver
+    - ShieldBuff
+    - ShieldConnect
     - Textt
     - Web
     - aiscrip
@@ -22,7 +27,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -36,10 +40,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -71,21 +73,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2562}
+      Script: {instanceID: 2560}
     - Class: 114
       Script: {instanceID: 2690}
     - Class: 114
       Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3196}
+      Script: {instanceID: 3194}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -118,21 +120,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 2258}
     - Class: 114
       Script: {instanceID: 2690}
     - Class: 114
       Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3472}
     - Class: 114
-      Script: {instanceID: 4890}
+      Script: {instanceID: 3892}
+    - Class: 114
+      Script: {instanceID: 4892}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,9 +187,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 3080}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3334}
+      Script: {instanceID: 3332}
     - Class: 114
       Script: {instanceID: 4040}
     - Class: 114
@@ -199,24 +203,83 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4818}
     - Class: 114
-      Script: {instanceID: 5166}
+      Script: {instanceID: 4864}
     - Class: 114
-      Script: {instanceID: 5628}
+      Script: {instanceID: 5100}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5170}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5632}
+    - Class: 114
+      Script: {instanceID: 5750}
+    - Class: 114
+      Script: {instanceID: 5820}
+    - Class: 114
+      Script: {instanceID: 5882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
-    - Class: 232
+    Assets/Scenes/Settings.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1522}
+    - Class: 114
+      Script: {instanceID: 1662}
+    - Class: 114
+      Script: {instanceID: 2258}
+    - Class: 114
+      Script: {instanceID: 2690}
+    - Class: 114
+      Script: {instanceID: 2864}
+    - Class: 114
+      Script: {instanceID: 3102}
+    - Class: 114
+      Script: {instanceID: 3160}
+    - Class: 114
+      Script: {instanceID: 3352}
+    - Class: 114
+      Script: {instanceID: 3472}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/menu.unity:
     - Class: 1
@@ -234,21 +297,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 2038}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 2258}
     - Class: 114
       Script: {instanceID: 2690}
     - Class: 114
       Script: {instanceID: 2864}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3196}
+      Script: {instanceID: 3194}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -310,16 +373,16 @@ ScriptsOnlyBuild:
     className: CCDSolver2D
   - hash:
       serializedVersion: 2
+      Hash: caf957cde30563bbade45c921788cf90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaxEnemies
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: LayoutElement
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: buffPickup
   - hash:
       serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
@@ -350,12 +413,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Spawner
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -412,7 +469,13 @@ ScriptsOnlyBuild:
     className: ScoreGameOver
   - hash:
       serializedVersion: 2
-      Hash: 7ba0edf58e54e43b52d0e7c268fa33da
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParticleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 999d530ae3bf8aead5770f3aa39c6856
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: dealingDamage
@@ -466,13 +529,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 7b27c87d5bbeeb1801942cbcc63ac1c1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Damage
-  - hash:
-      serializedVersion: 2
-      Hash: c401454cac09a33e30cc902391b42131
+      Hash: d05f9f23e9dfb70e18b108cd46ef1475
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: buffSpeed
@@ -611,6 +668,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Link
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -730,7 +793,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
-      Hash: 9cdeb427e4b22530b00e307ac2fec460
+      Hash: d37e497a0a9b8ad8a2414608571caf2b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Buffs
@@ -778,7 +841,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 9fb5fc2e9024066b8491248627424337
+      Hash: bc4a51e06ab86fa71b46b3b64fd90017
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: rotation
@@ -794,6 +857,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: fb9e55080a3800d9758abc1863843c19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Death
   - hash:
       serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
@@ -818,6 +887,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
     className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShieldConnect
   - hash:
       serializedVersion: 2
       Hash: 63bdc2cf3273aa9bf650350f19d2af61
@@ -862,7 +937,7 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 220bd265f54cc4cee8f1539ad2b2c64a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: bullet
@@ -908,10 +983,17 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 220bd265f54cc4cee8f1539ad2b2c64a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShieldBuff
   platform: 19
   scenePathNames:
   - Assets/Scenes/Login.unity
   - Assets/Scenes/menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GameOver.unity
+  - Assets/Scenes/Settings.unity
   playerPath: E:/unityprojects/Game/2dGame.exe

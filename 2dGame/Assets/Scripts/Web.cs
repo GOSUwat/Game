@@ -21,21 +21,21 @@ public class Web : MonoBehaviour
     {
         login = log;
     }
-    // Start is called before the first frame update
 
     public IEnumerator Test()
-    {
+
+    {   //Создаем Запрос
         WWWForm form = new WWWForm();
         form.AddField("Login", login);
         form.AddField("Password", password);
+        //Отправляем запрос
+
         WWW req = new WWW("siteTest.loc", form);
 
-
-
+                              //Поулчаем Ответ
         yield return req;
         Debug.Log(req.text);
 
-        //RESPOSE
         string[] mas = req.text.Split(' ');
 
         //Score DB

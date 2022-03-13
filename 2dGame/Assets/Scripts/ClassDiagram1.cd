@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="aiscrip">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\aiscrip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buffs">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYACAAgACJBAAABAAAAAQAAAAAQAQBAAADgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Buffs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuffSpawn">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\BuffSpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="buffSpeed">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAACAQACAAYAAAAAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\Scripts\buffSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="movement">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQABAAAAiAAAAAEAAAAAAEAAAAAAgAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rotation">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\rotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Score">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAIAAIAAAAAAAAAAAjAAAAUAAA=</HashCode>
+      <FileName>Assets\Scripts\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shooting">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAAAAAAAIAAAAAAgAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\shooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dealingDamage">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAJIAAAAIAAAAAAAAAAABAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\dealingDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Healthbar">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Healthbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

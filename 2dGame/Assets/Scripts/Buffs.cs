@@ -11,7 +11,7 @@ public class Buffs : MonoBehaviour
     GameObject ShieldBuff;
 
     private float buffid = 0;
-    private float buffDur = 0;
+    public static float buffDur;
     private float speed = 0;
     private string buffName;
     public GameObject shield;

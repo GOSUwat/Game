@@ -6,7 +6,7 @@ public class Score : MonoBehaviour
 {
   
     public static int score = 0;
-    
+    public static int enemyCount = 0;
     public float spawnTime = 1000f;
     public GameObject prefab;
     public int hp;
@@ -33,6 +33,11 @@ public class Score : MonoBehaviour
 
     void SpawnEnemy()
     {
-        Instantiate(prefab,posSpawn[Random.Range(0, 6)].GetComponent<Transform>());
+        if (MaxEnemies.enemyMax > enemyCount)
+        {
+            Instantiate(prefab, posSpawn[Random.Range(0, 6)].GetComponent<Transform>());
+            enemyCount++;
+        }
+        
     }
 }

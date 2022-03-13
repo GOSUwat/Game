@@ -15,6 +15,7 @@ public class bullet : MonoBehaviour
             Destroy(collision.gameObject);
             //Destroy(effect, 2f);
             Score.score += 10;
+            Score.enemyCount--;
             
             Instantiate(prefab, collision.transform.position,Quaternion.identity);
             

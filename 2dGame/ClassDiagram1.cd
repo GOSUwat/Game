@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="aiscrip" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\aiscrip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buffs" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYACAAgACJBAAABAAAAAQAAAAAQAQBAAADgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Buffs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuffSpawn" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\BuffSpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="buffSpeed" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAACAQACAAYAAAAAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\Scripts\buffSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bullet" Collapsed="true">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFollow" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damage" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Damage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dealingDamage" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAJIAAAAIAAAAAAAAAAABAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\dealingDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeathAnim" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DeathAnim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="detatching" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\detatching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="following" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\following.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Healthbar" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Healthbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="movement" Collapsed="true">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQABAAAAiAAAAAEAAAAAAEAAAAAAgAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rotation" Collapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\rotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Score" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAIAAIAAAAAAAAAAAjAAAAUAAA=</HashCode>
+      <FileName>Assets\Scripts\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreGameOver" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreGameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shooting" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAAAAAAAIAAAAAAgAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\shooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawner" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Spawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAEACACwAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Web.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Death" Collapsed="true">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Death.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Link" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Link.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleScript" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ParticleScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShieldBuff" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\ShieldBuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShieldConnect" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ShieldConnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Textt" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Textt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

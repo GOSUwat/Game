@@ -8,7 +8,7 @@ public class rotation : MonoBehaviour
     
     public float speed = 50f;
     public bool facingRight = false;
-    public GameObject player;
+    public Transform player;
 
     void Start()
     {
@@ -22,6 +22,7 @@ public class rotation : MonoBehaviour
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, speed * Time.deltaTime);
+        transform.position = player.position;
         
     }
     private void FixedUpdate()

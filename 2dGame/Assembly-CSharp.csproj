@@ -53,12 +53,11 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Textt.cs" />
     <Compile Include="Assets\Scripts\ScoreGameOver.cs" />
+    <Compile Include="Assets\ParticleScript.cs" />
     <Compile Include="Assets\Scripts\dealingDamage.cs" />
     <Compile Include="Assets\Scripts\DeathAnim.cs" />
-    <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Scripts\buffSpeed.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -69,6 +68,7 @@
     <Compile Include="Assets\Scripts\Buffs.cs" />
     <Compile Include="Assets\Scripts\aiscrip.cs" />
     <Compile Include="Assets\Scripts\rotation.cs" />
+    <Compile Include="Assets\Death.cs" />
     <Compile Include="Assets\Scripts\Web.cs" />
     <Compile Include="Assets\ShieldConnect.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
@@ -77,8 +77,10 @@
     <Compile Include="Assets\Scripts\shooting.cs" />
     <Compile Include="Assets\Scripts\BuffSpawn.cs" />
     <Compile Include="Assets\ShieldBuff.cs" />
-    <Compile Include="Assets\ParticleScript.cs" />
-    <Compile Include="Assets\Death.cs" />
+    <Compile Include="Assets\MaxEnemies.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
