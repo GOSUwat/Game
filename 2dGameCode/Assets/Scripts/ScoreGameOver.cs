@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ScoreGameOver : MonoBehaviour
 {
     Text endScore;
-    // Start is called before the first frame update
+  
     void Start()
     {
         endScore = GetComponent<Text>();
@@ -32,18 +32,10 @@ public class ScoreGameOver : MonoBehaviour
             WWW req = new WWW("siteTest.loc", form);
             yield return req;
         }
-        
 
-        
         Score.score = 0;
-        
-
-
-
-        
-
+  
     }
 
-    // Update is called once per frame
    
 }

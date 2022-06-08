@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class rotation : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Weapon Rotation Script
     
     public float speed = 50f;
     public bool facingRight = false;
@@ -28,6 +28,5 @@ public class rotation : MonoBehaviour
     private void FixedUpdate()
     {
     }
-   
 
 }

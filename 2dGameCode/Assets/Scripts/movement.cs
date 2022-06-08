@@ -7,11 +7,9 @@ public class movement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Camera cam;
-    
     public Animator animator;
 
     public int movementSpeed = 4;
-    
     Vector2 mvmnt;
     public float animspeed;
     public bool facingRight = true;
@@ -44,18 +42,5 @@ public class movement : MonoBehaviour
         rb.MovePosition(rb.position + mvmnt * movementSpeed * Time.fixedDeltaTime);
 
     }
-
-
-    /*void Flip()
-    {
-        facingRight = !facingRight;
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
-    }*/
-    
-    
-    
-
 
 }

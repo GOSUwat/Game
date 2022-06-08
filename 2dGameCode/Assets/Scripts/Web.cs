@@ -23,8 +23,8 @@ public class Web : MonoBehaviour
     }
 
     public IEnumerator Test()
-
-    {   //Создаем Запрос
+    {   
+        //Создаем Запрос
         WWWForm form = new WWWForm();
         form.AddField("Login", login);
         form.AddField("Password", password);
@@ -32,19 +32,16 @@ public class Web : MonoBehaviour
 
         WWW req = new WWW("siteTest.loc", form);
 
-                              //Поулчаем Ответ
+        //Поулчаем Ответ
         yield return req;
-        Debug.Log(req.text);
-
         string[] mas = req.text.Split(' ');
 
         //Score DB
         try
         {
             DBscore = int.Parse(mas[1]);
+
         }
-
-
         catch(Exception )
         {
 
@@ -72,10 +69,5 @@ public class Web : MonoBehaviour
     {
         Application.OpenURL("http://site.loc/login.php");
     }
-
-
-
-
-
 
 }

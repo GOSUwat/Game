@@ -53,34 +53,31 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Textt.cs" />
+    <Compile Include="Assets\Scripts\MaxEnemies.cs" />
+    <Compile Include="Assets\Scripts\Textt.cs" />
     <Compile Include="Assets\Scripts\ScoreGameOver.cs" />
-    <Compile Include="Assets\ParticleScript.cs" />
+    <Compile Include="Assets\Scripts\ParticleScript.cs" />
     <Compile Include="Assets\Scripts\dealingDamage.cs" />
     <Compile Include="Assets\Scripts\DeathAnim.cs" />
     <Compile Include="Assets\Scripts\buffSpeed.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Link.cs" />
+    <Compile Include="Assets\Scripts\Link.cs" />
     <Compile Include="Assets\Scripts\detatching.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Healthbar.cs" />
     <Compile Include="Assets\Scripts\Buffs.cs" />
     <Compile Include="Assets\Scripts\aiscrip.cs" />
     <Compile Include="Assets\Scripts\rotation.cs" />
-    <Compile Include="Assets\Death.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\Web.cs" />
-    <Compile Include="Assets\ShieldConnect.cs" />
+    <Compile Include="Assets\Scripts\ShieldConnect.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\following.cs" />
     <Compile Include="Assets\Scripts\bullet.cs" />
     <Compile Include="Assets\Scripts\shooting.cs" />
     <Compile Include="Assets\Scripts\BuffSpawn.cs" />
-    <Compile Include="Assets\ShieldBuff.cs" />
-    <Compile Include="Assets\MaxEnemies.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Scripts\ClassDiagram1.cd" />
+    <Compile Include="Assets\Scripts\ShieldBuff.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

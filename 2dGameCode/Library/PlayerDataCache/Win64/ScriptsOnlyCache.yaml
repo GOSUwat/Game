@@ -216,6 +216,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5820}
     - Class: 114
       Script: {instanceID: 5882}
+    - Class: 114
+      Script: {instanceID: 24226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -475,7 +477,7 @@ ScriptsOnlyBuild:
     className: ParticleScript
   - hash:
       serializedVersion: 2
-      Hash: 999d530ae3bf8aead5770f3aa39c6856
+      Hash: 220bd265f54cc4cee8f1539ad2b2c64a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: dealingDamage

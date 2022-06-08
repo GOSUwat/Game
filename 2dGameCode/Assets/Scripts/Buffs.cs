@@ -18,37 +18,34 @@ public class Buffs : MonoBehaviour
 
 
 
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Buff")
+        try
         {
-            _movement = gameObject.GetComponent<movement>();
-            hp = gameObject.GetComponent<Healthbar>();
-           _buffSpeed = collision.gameObject.GetComponent<buffSpeed>();
-            buffDur = _buffSpeed.buffDuration;
-            buffid = _buffSpeed.buffID;
-            speed = _movement.movementSpeed;
-            OnBuff();
-               
-            Destroy(collision.gameObject);
+            if (collision.gameObject.tag == "Buff")
+            {
+                _movement = gameObject.GetComponent<movement>();
+                hp = gameObject.GetComponent<Healthbar>();
+                _buffSpeed = collision.gameObject.GetComponent<buffSpeed>();
+                buffDur = _buffSpeed.buffDuration;
+                buffid = _buffSpeed.buffID;
+                speed = _movement.movementSpeed;
+                OnBuff();
+
+                Destroy(collision.gameObject);
+            }
         }
+        catch (System.Exception)
+        {
+
+        }
+        
     }
 
     private void OnGUI()
     {
-            GUI.Label(new Rect(500, 15, 75, 75), "Buff time Left is " + buffDur.ToString());
-            GUI.Label(new Rect(700, 15, 75, 75), "Buff type is " + buffName);
+            GUI.Label(new Rect(500, 15, 75, 75), "Осталось времени усиления: " + buffDur.ToString());
+            GUI.Label(new Rect(700, 15, 75, 75), "На вас усиление! " + buffName);
     }
 
     private void Update()
@@ -62,26 +59,23 @@ public class Buffs : MonoBehaviour
         
     }
 
-    //1 speed
-    //2 +hp
     void OnBuff()
     {
          if (buffid == 0)
          {
             _movement.movementSpeed += 2;
-            buffName = "Speed";
+            buffName = "Скорость";
          }
 
          else if (buffid == 1)
          {
             hp.hp += 2;
-            //buffDur = 0;
-            buffName = "HEALTH";
+            buffName = "Доп. Жизни";
          } 
          else if (buffid == 2)
         {
             ShieldBuff = Instantiate(shield, gameObject.transform.position,Quaternion.identity);
-            buffName = "SUPER SHIELD";
+            buffName = "Супер Щит!";
         }
 
     }
